@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\DetailsController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -31,10 +32,18 @@ Route::get('/contact', function(){
 Route::get('/product', function(){
     return view('produit');
 });
-
-//details 
-Route::get('details', function()
-{
-   return view('details') ;
+//route mention
+Route::get('/mention', function(){
+    return view('mention');
 });
+//details 
+Route::get('details/germanium',[DetailsController::class,'detailsGermanium']);
+Route::get('details/indium',[DetailsController::class,'detailsindium']);
+Route::get('details/dysprosium',[DetailsController::class,'detailsdysprosium']);
+Route::get('details/gallium',[DetailsController::class,'detailsgallium']);
+Route::get('details/terbium',[DetailsController::class,'detailsterbium']);
+Route::get('details/neodyme',[DetailsController::class,'detailsneodyme']);
+Route::get('details/hafnium',[DetailsController::class,'detailshafnium']);
+Route::get('details/praseodymium',[DetailsController::class,'detailspraseodymium']);
+
 

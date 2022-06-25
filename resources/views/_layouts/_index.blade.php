@@ -13,14 +13,14 @@
     <link rel="icon" href="img/fevicon.png">
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
-    <link rel="stylesheet" href="css/nice-select.css">
-    <link rel="stylesheet" href="css/slick-slider.css">
-    <link rel="stylesheet" href="css/fontawesome.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{asset('css/animate.css')}}">
+    <link rel="stylesheet" href="{{asset('css/magnific-popup.css')}}">
+    <link rel="stylesheet" href="{{asset('css/nice-select.css')}}">
+    <link rel="stylesheet" href="{{asset('css/slick-slider.css')}}">
+    <link rel="stylesheet" href="{{asset('css/fontawesome.min.css')}}">
+    <link rel="stylesheet" href="{{asset('css/style.css')}}">
+    <link rel="stylesheet" href="{{asset('css/responsive.css')}}">
 
     <!--Google Fonts-->
     <link href="../../../fonts.googleapis.com/css2f59e.css?family=Playfair+Display:wght@400;500;600;700;800&amp;family=Poppins:wght@300;400;500;600;700;800&amp;family=Roboto:wght@300;400;500;700&amp;display=swap" rel="stylesheet">
@@ -57,7 +57,7 @@
                     </button>
                 </div>
                 <div class="logo">
-                    <a class="main-logo" href="/"><h2><img src="img/fevicon.png" alt="" />  ELIO STRATEGY</h2></a>
+                    <a class="main-logo" href="/"><h2><img style="width: 30px;height:30px" src="{{asset('img/fevicon.png')}}" alt="" />  ELIO STRATEGY</h2></a>
                 </div>
                 <div class="collapse navbar-collapse" id="themefie_main_menu">
                     <ul class="navbar-nav menu-open ml-auto">
@@ -66,7 +66,7 @@
                                 </a>
                         </li>
                         <li>
-                            <a href="{{('about')}}">À PROPOS</a>
+                            <a href="{{('/about')}}">À PROPOS</a>
                         </li>
                         <li>
                             <a href="{{url('product')}}">PRODUITS
@@ -87,10 +87,10 @@
     @yield('content')
 
     <!-- footer area start -->
-    <footer class="footer-area text-center" style="background: url(img/shape/footer-bg-1.png);">
+    <footer class="footer-area text-center" style="background: url({{asset('img/shape/footer-bg-1.png')}});">
         <div class="container">
             <div class="footer-thumb">
-                <a href="index.html"><img src="img/logo-footer.png" alt="img"></a>
+                <a href="index.html"><img src="{{asset('img/logo-footer.png')}}" alt="img"></a>
             </div>  
             <div class="widget-footer-link">
                 <ul>
@@ -98,6 +98,7 @@
                     <li><a href="{{url('about')}}">À PROPOS </a></li>
                     <li><a href="{{url('/product')}}"">PRODUITS </a></li>
                     <li><a href="{{url('/contact')}}">CONTACT</a></li>
+                    <li><a href="{{url('/mention')}}">MENTIONS LÉGALES</a></li>
                 </ul>
             </div> 
             <div class="widget-footer-social">
@@ -114,7 +115,7 @@
         <div class="footer-bottom">
             <div class="container">
                 <div class="copyright-area">
-                    <p>© 2020 Elio strategy. All Rights Reserved</p>                        
+                    <p>© 2020 Elio strategy. All Rights Reserved <a href="/mention">Mentions légales</a> </p>                        
                 </div>              
             </div>
         </div>
@@ -164,18 +165,18 @@
         x.parentNode.insertBefore(s, x);
     </script> 
     <!-- all plugins here -->
-    <script src="js/jquery-3.5.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/magnific.js"></script>
-    <script src="js/image-loaded.js"></script>
-    <script src="js/nice-select.js"></script>
-    <script src="js/slick-slider.js"></script>
-    <script src="js/wow.js"></script>
-    <script src="js/waypoint.js"></script>
-    <script src="js/ripple.js"></script>
-    <script src="js/counterup.js"></script>
+    <script src="{{asset('js/jquery-3.5.1.min.js')}}"></script>
+    <script src="{{asset('js/bootstrap.min.js')}}"></script>
+    <script src="{{asset('js/magnific.js')}}"></script>
+    <script src="{{asset('js/image-loaded.js')}}"></script>
+    <script src="{{asset('js/nice-select.js')}}"></script>
+    <script src="{{asset('js/slick-slider.js')}}"></script>
+    <script src="{{asset('js/wow.js')}}"></script>
+    <script src="{{asset('js/waypoint.js')}}"></script>
+    <script src="{{asset('js/ripple.js')}}"></script>
+    <script src="{{asset('js/counterup.js')}}"></script>
     <!-- main js  -->
-    <script src="js/main.js"></script>
+    <script src="{{asset('js/main.js')}}"></script>
 </body>
 
 </html>

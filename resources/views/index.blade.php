@@ -60,7 +60,7 @@
                     </button>
                 </div>
                 <div class="logo">
-                    <a class="main-logo" href="/"><!--<img src="img/_logo-blanc2.png" style="height: 80px !important ;width: 90px !important" alt="img"> --> <h2><img src="img/fevicon.png" alt="" />  ELIO STRATEGY</h2></a>
+                    <a class="main-logo" href="/"><!--<img src="img/_logo-blanc2.png" style="height: 80px !important ;width: 90px !important" alt="img"> --> <h2><img style="width: 50px;height:50px" src="img/fevicon.png" alt="" />  ELIO STRATEGY</h2></a>
                 </div>
                 <div class="collapse navbar-collapse" id="themefie_main_menu">
                     <ul class="navbar-nav menu-open ml-auto">
@@ -97,9 +97,18 @@
                             Spécialiste en métaux d’investissement
                             </h1>
                         <p>Un constat confirmé chaque année aujourd’hui encore, tant leur utilisation ne cesse de croître dans la production industrielle mondiale. En effet, ce groupe de 17 métaux précieux est devenu l’un des facteurs clé de la croissance mondiale.</p>
-                        <a href="index.html" class=""><a class="btn btn-blue" href="/contact"><i class="fa fa-book"></i>Demande de brochure gratuite</a></a>
-                        <a class="btn btn-blue active m-0" href="/contact"><i class="fa fa-phone-square"></i>Contactez-nous</a>
+                        <a href="/contact" class="mt-3"><a class="btn btn-blue mt-3" href="/contact"><i class="fa fa-book"></i>Demande de brochure gratuite</a></a>
+                        <a class="btn btn-blue active m-0 mt-3" href="/contact"><i class="fa fa-phone-square"></i>Contactez-nous</a>
                     </div>
+                        <div class="row mt-5 justify-content-center">
+                                
+                            <div class="col-lg-11">
+                                <div class="video-inner">
+                                        
+                                    <a class="play-btn" href="../../../external.html?link=https://www.youtube.com/embed/Wimkqo8gDZ0" data-effect="mfp-zoom-in"><img src="img/icon/play.png" alt="img"></a>
+                                </div>          
+                            </div>          
+                        </div>  
                 </div>
                 <div class="col-xl-5 col-lg-6 offset-lg-1 d-none d-lg-block">
                     <img src="img/banner/banner1.png" alt="img">
@@ -116,52 +125,52 @@
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-intro-wrap">
                         <img class="" style="width: 80px; height:80px;" src="img/featured/produit8.png" alt="">
-                        <h4><a href="{{url('details')}}">Germanium </a></h4>
+                        <h4><a href="{{url('details/germanium')}}">Germanium </a></h4>
                     </div>                  
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-intro-wrap">
                         <img class="" style="width: 80px; height:80px;" src="img/featured/produit2.png" alt="">
-                        <h4><a href="about.html">Indium </a></h4>
+                        <h4><a href="{{url('details/indium')}}">Indium </a></h4>
                     </div>                  
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-intro-wrap">
                         <img class="" style="width: 80px; height:80px;" src="img/featured/produit3.png" alt="">
-                        <h4><a href="about.html">Dysprosium</a></h4>
+                        <h4><a href="{{url('details/dysprosium')}}">Dysprosium</a></h4>
                     </div>                  
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-intro-wrap">
                         <img class="" style="width: 80px; height:80px;" src="img/featured/produit4.png" alt="">
-                        <h4><a href="about.html">Gallium</a></h4>
+                        <h4><a href="{{url('details/gallium')}}">Gallium</a></h4>
                     </div>                  
                 </div>
 
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-intro-wrap">
                         <img class="" style="width: 80px; height:80px;" src="img/featured/produit5.png" alt="">
-                        <h4><a href="about.html">Terbium</a></h4>
+                        <h4><a href="{{url('details/terbium')}}">Terbium</a></h4>
                     </div>                  
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-intro-wrap">
                         <img class="" style="width: 80px; height:80px;" src="img/featured/produit1.png" alt="">
-                        <h4><a href="about.html">Neodyme</a></h4>
+                        <h4><a href="{{url('details/neodyme')}}">Neodyme</a></h4>
                     </div>                  
                 </div>
 
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-intro-wrap">
                         <img class="" style="width: 80px; height:80px;" src="img/featured/produit6.png" alt="">
-                        <h4><a href="about.html">Hafnium</a></h4>
+                        <h4><a href="{{url('details/hafnium')}}">Hafnium</a></h4>
                     </div>                  
                 </div>
 
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-intro-wrap">
                         <img class="" style="width: 80px; height:80px;" src="img/featured/produit7.png" alt="">
-                        <h4><a href="about.html">Praseodymium</a></h4>
+                        <h4><a href="{{url('details/praseodymium')}}">Praseodymium</a></h4>
                     </div>                  
                 </div>
             </div>
@@ -524,7 +533,21 @@
         </div>    
     </section>
     <!-- network-Area End-->
-
+      <!-- video-Area start-->
+      <section class="d-none">
+        <div class="container">
+            <div class="row justify-content-center">
+                
+                <div class="col-lg-11">
+                    <div class="video-inner">
+                        <img src="img/other/video.png" alt="img">
+                        <a class="play-btn" href="../../../external.html?link=https://www.youtube.com/embed/Wimkqo8gDZ0" data-effect="mfp-zoom-in"><img src="img/icon/play.png" alt="img"></a>
+                    </div>          
+                </div>          
+            </div>  
+        </div>
+     </section>
+    <!-- video-Area End-->
     <!-- testimonial-Area Start-->
     
     <!-- testimonial-Area End-->
@@ -682,6 +705,7 @@
                     <li><a href="{{url('about')}}">À PROPOS </a></li>
                     <li><a href="{{url('/product')}}"">PRODUITS </a></li>
                     <li><a href="{{url('/contact')}}">CONTACT</a></li>
+                    <li><a href="{{url('/mention')}}">MENTIONS LÉGALES</a></li>
                 </ul>
             </div> 
             <div class="widget-footer-social">
