@@ -39,7 +39,7 @@
 
     <!-- search popup area start -->
     <div class="search-popup" id="search-popup">
-        <form action="../../../external.html?link=https://s7template.com/tf/prooland/index.html" class="search-form">
+        <form action="" class="search-form">
             <div class="form-group">
                 <input type="text" class="form-control" placeholder="Search.....">
             </div>
@@ -102,7 +102,7 @@
                     </div>
                 </div>
                 <div class="col-xl-5 col-lg-6 offset-lg-1 d-none d-lg-block">
-                    <img src="img/banner/3.png" alt="img">
+                    <img src="img/banner/banner1.png" alt="img">
                 </div>
             </div>
         </div>
@@ -499,9 +499,9 @@
             <div class="row justify-content-center">
                 <div class="col-xl-5 col-lg-6 d-none d-lg-block align-self-end">
                     <div class="thumb me-5 span3 wow rollIn">
-                        <img src="img/imageedit_12_2602782739.png" alt="img">
+                        <img src="img/technique_image_gobi.png" alt="img">
                     </div>
-                </div>
+                </div> 
                 <div class="col-xl-5 col-lg-5 col-sm-9">
                     <div class="section-title mb-0 pb-5">
                         <h2 class="title">Investir dans l’avenir des métaux de terres rares à Pau</h2>
@@ -517,7 +517,7 @@
                 </div>
                 <div class="col-lg-2 d-none d-xl-block align-self-end">
                     <div class="thumb span3 wow rollInRight">
-                        <img src="img/other/4.png" alt="img">
+                        <img src="img/other/6.png" alt="img">
                     </div>
                 </div>
             </div>  

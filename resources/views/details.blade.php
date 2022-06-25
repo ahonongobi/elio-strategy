@@ -25,7 +25,7 @@
         <div class="row">
             <div class="col-lg-8">
                 <div class="thumb">
-                    <img src="img/blog/1.jpg" alt="blog">
+                    <img src="img/blog/electronique-nd.jpeg" alt="blog">
                 </div>
                 <div class="single-blog-post px-0">
                     
