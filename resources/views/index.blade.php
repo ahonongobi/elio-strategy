@@ -508,6 +508,7 @@
                     <div class="section-title mb-0 pb-5">
                         <h2 class="title">Investir dans l’avenir des métaux de terres rares à Pau</h2>
                         <p>Elio Strategy est une entreprise qui investit dans l’avenir . Nous croyons au potentiel des métaux des terres rares et nous nous engageons à aider nos clients à tirer parti de cette industrie en pleine croissance. Notre équipe possède des années d’expérience dans les secteurs de l’exploitation minière et de l’investissement, et nous sommes ravis de partager nos connaissances avec vous. Si vous cherchez une société qui peut vous aider à investir dans les métaux des terres rares, ne cherchez pas plus loin qu’Elio Strategy !</p>
+                        <img src="img/cachet2.png" alt="" srcset=""> <br>
                     </div>
                     <!--<ul class="pl-list-inner style-1">
                         <li><i class="fa fa-check"></i>Delay rapid joy share allow age manor six.</li>

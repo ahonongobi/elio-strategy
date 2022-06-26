@@ -92,8 +92,10 @@
                             
                             À propos d'Elio strategy
                             </h4>
+
                             <h5>Le marché des métaux et ses principaux facteurs</h5>
                         <p>
+                            <img style="width: 200px; height:200px" src="img/cachet2.png" alt="" srcset=""> <br>
                             Décrypter les marchés des métaux mineurs demande beaucoup de curiosité car l´exercice mobilise divers domaines de connaissance. Suivre et comprendre l’évolution du cours d’un métal conduit en effet à suivre toute une filière industrielle : à commencer par les projets miniers et leur exploitation, les procédés de raffinage, de métallurgies, de substitution, aux travaux de R&D, et enfin aux développements des filières de recyclage… Une telle diversité impose donc beaucoup d’exigence dans le travail d’analyse, mais elle contribue à le rendre d’autant plus passionnant. <br> <br>
                             Cette section propose une vision panoramique des principaux facteurs à considérer pour étudier le marché des métaux rares et métaux critiques, afin de compléter ainsi les analyses de l’offre et de la demande présentées dans les sections précédentes. Rappelons que chaque métal doit faire l’objet d’une analyse fine et complète de sa chaîne d’approvisionnement, car, selon le métal considéré, les points de fragilités peuvent se faire à des niveaux très différents. L’analyse doit prendre en compte l’ensemble de la filière amont et aval, depuis la ressource minérale jusqu’au produit fini, et intégrer les activités des investisseurs et intermédiaires de marché.
                         </p>

@@ -116,7 +116,7 @@
 <!-- fact-count-Area End-->
 <section style="margin-top: 10%" class="subscribe-area pd-top-150 pd-bottom-150 shape-1 bg-white">
     <div class="container">
-        <h2 class="">Price development of precious metals*</h2>
+        <h2 class="">Évolution des prix des métaux précieux*</h2>
         <div class="row">
             <div class="col-lg-3 col-sm-6">
                <img src="img/other/gold-price-development.png" alt="">                
