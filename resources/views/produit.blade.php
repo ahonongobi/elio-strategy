@@ -8,9 +8,9 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="breadcrumb-inner text-center">
-                        <h1 class="page-title">PRODUITS</h1>
+                        <h1 class="page-title">MÉTAUX PRÉCIEUX</h1>
                         <ul class="page-list">
-                            <li><a href="index.html">Acceuil</a><i class="fa fa-angle-double-right" aria-hidden="true"></i></li>
+                            <li><a href="/">Acceuil</a><i class="fa fa-angle-double-right" aria-hidden="true"></i></li>
                             <li>produits</li>
                         </ul>
                     </div>
@@ -19,59 +19,60 @@
         </div>
     </div>
 	<!--Banner area end-->
-
+    
     <section class="intro-area pd-top-110 text-center">
         <div class="container">
+            
             <div class="row">
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-intro-wrap">
                         <img class="" style="width: 80px; height:80px;" src="img/featured/produit8.png" alt="">
-                        <h4><a href="{{url('details')}}">Germanium </a></h4>
+                        <h4><a href="{{url('details/germanium')}}">Germanium </a></h4>
                     </div>                  
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-intro-wrap">
                         <img class="" style="width: 80px; height:80px;" src="img/featured/produit2.png" alt="">
-                        <h4><a href="about.html">Indium </a></h4>
+                        <h4><a href="{{url('details/indium')}}">Indium </a></h4>
                     </div>                  
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-intro-wrap">
                         <img class="" style="width: 80px; height:80px;" src="img/featured/produit3.png" alt="">
-                        <h4><a href="about.html">Dysprosium</a></h4>
+                        <h4><a href="{{url('details/dysprosium')}}">Dysprosium</a></h4>
                     </div>                  
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-intro-wrap">
                         <img class="" style="width: 80px; height:80px;" src="img/featured/produit4.png" alt="">
-                        <h4><a href="about.html">Gallium</a></h4>
+                        <h4><a href="{{url('details/gallium')}}">Gallium</a></h4>
                     </div>                  
                 </div>
 
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-intro-wrap">
                         <img class="" style="width: 80px; height:80px;" src="img/featured/produit5.png" alt="">
-                        <h4><a href="about.html">Terbium</a></h4>
+                        <h4><a href="{{url('details/terbium')}}">Terbium</a></h4>
                     </div>                  
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-intro-wrap">
                         <img class="" style="width: 80px; height:80px;" src="img/featured/produit1.png" alt="">
-                        <h4><a href="about.html">Neodyme</a></h4>
+                        <h4><a href="{{url('details/neodyme')}}">Neodyme</a></h4>
                     </div>                  
                 </div>
 
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-intro-wrap">
                         <img class="" style="width: 80px; height:80px;" src="img/featured/produit6.png" alt="">
-                        <h4><a href="about.html">Hafnium</a></h4>
+                        <h4><a href="{{url('details/hafnium')}}">Hafnium</a></h4>
                     </div>                  
                 </div>
 
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-intro-wrap">
                         <img class="" style="width: 80px; height:80px;" src="img/featured/produit7.png" alt="">
-                        <h4><a href="about.html">Praseodymium</a></h4>
+                        <h4><a href="{{url('details/praseodymium')}}">Praseodymium</a></h4>
                     </div>                  
                 </div>
             </div>
@@ -84,8 +85,65 @@
 
    
     
+<!-- fact-count-Area start-->
+<section class="fact-count-area text-center">
+    <div class="container">
+        <div class="fact-inner">
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-sm-6">
+                    <div class="single-fact-inner">
+                        <h2><span class="counter">200,000</span></h2>
+                        <h4>Produites par an</h4>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="single-fact-inner">
+                        <h2 class="counter">10</h2>
+                        <h4>Pays producteurs</h4>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="single-fact-inner">
+                        <h2><span class="counter">95 </span>%</h2>
+                        <h4>Production mondiale</h4>
+                    </div>
+                </div>
+                
+            </div>
+        </div>  
+    </div>
+</section>
+<!-- fact-count-Area End-->
+<section style="margin-top: 10%" class="subscribe-area pd-top-150 pd-bottom-150 shape-1 bg-white">
+    <div class="container">
+        <h2 class="">Price development of precious metals*</h2>
+        <div class="row">
+            <div class="col-lg-3 col-sm-6">
+               <img src="img/other/gold-price-development.png" alt="">                
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <img src="img/other/iridium-price-development.png" alt="">              
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <img src="img/other/palladium-price-development.png" alt="">                  
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <img src="img/other/platinum-price-development.png" alt="">                    
+            </div>
 
+            <div class="col-lg-3 col-sm-6">
+                <img src="img/other/rhodium-price-development.png" alt="">                     
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <img src="img/other/ruthenium-price-development.png" alt="">                     
+            </div>
 
+            <div class="col-lg-3 col-sm-6">
+                <img src="img/other/silver-price-development.png" alt="">                      
+            </div>
+        </div>
+    </div>
+</section>
 
     <!-- subscribe-Area Start-->
     <section class="subscribe-area pd-top-140 pd-bottom-150 shape-1">
@@ -97,7 +155,7 @@
                         <p>Vous recevrez des notifications  provénant d'elio strategy</p>
                     </div>
                     <div class="single-subscribe-wrap">
-                        <input type="text" placeholder="Adresse e-mail">
+                        <input type="text" required placeholder="Adresse e-mail">
                         <button class="btn btn-black">SOUSCRIRE</button>
                     </div>                  
                 </div>

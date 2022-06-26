@@ -1,5 +1,129 @@
 @extends('_layouts._index')
+<style>
+	/** start here radio button css like a button **/
+	.btn_choose_sent input {
+  -webkit-appearance: none;
+  display: block;
+  margin: 10px;
+  width: 18px;
+  height: 18px;
+  border-radius: 12px;
+  cursor: pointer;
+  vertical-align: middle;
+  box-shadow: hsla(0,0%,100%,.15) 0 1px 1px, inset hsla(0,0%,0%,.5) 0 0 0 1px;
+  background-color: hsla(0,0%,0%,.2);
+      background-image: -webkit-radial-gradient( #fff 0%, #fff 15%, #fff 28%, #fff 70% );
+  background-repeat: no-repeat;
+  -webkit-transition: background-position .15s cubic-bezier(.8, 0, 1, 1),
+    -webkit-transform .25s cubic-bezier(.8, 0, 1, 1);
+  outline: none;
+}
+.btn_choose_sent input:checked {
+  -webkit-transition: background-position .2s .15s cubic-bezier(0, 0, .2, 1),
+    -webkit-transform .25s cubic-bezier(0, 0, .2, 1);
+}
+.btn_choose_sent input:active {
+  -webkit-transform: scale(1.5);
+  -webkit-transition: -webkit-transform .1s cubic-bezier(0, 0, .2, 1);
+}
 
+
+
+/* The up/down direction logic */
+
+.btn_choose_sent input,
+.btn_choose_sent input:active {
+  background-position: 0 24px;
+}
+.btn_choose_sent input:checked {
+  background-position: 0 0;
+}
+.btn_choose_sent input:checked ~ input,
+ .btn_choose_sent input:checked ~ input:active {
+  background-position: 0 -24px;
+}
+
+.btn_choose_sent{
+	    background: #EF2D56;
+    color: #fff;
+    box-shadow: 0 10px 20px rgba(125, 147, 178, .3);
+    border: none; 
+     border-radius: 3px;
+    font-size: 16px;
+    line-height: 10px;
+    padding:  16px 20px 16px 38px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 30px;
+    transition: all .3s;
+    height: auto;
+    cursor: pointer;
+    position: relative;
+    outline: none;
+}
+
+.btn_choose_sent input{
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    top: 2px;
+}
+
+.btn_choose_sent input:after{
+	 position: absolute;
+    content: '';
+    width: 15rem;
+    left: 0;
+    right: 0;
+    /* background: red; */
+    /* z-index: -1; */
+    height: 40px;
+    top: -10px;
+}
+
+.bg_btn_chose_1{
+	background-color: #f78968 !important;
+}
+
+
+.bg_btn_chose_2{
+	background-color: #4e336fdb !important;
+}
+
+
+.bg_btn_chose_3{
+	background-color: #359dcc !important;
+}
+
+
+/*-=p=--=*/
+
+
+
+
+.btn_choose_sent_check_b{
+	  background: #EF2D56;
+    color: #fff;
+    box-shadow: 0 10px 20px rgba(125, 147, 178, .3);
+    border: none; 
+     border-radius: 3px;
+    font-size: 16px;
+    line-height: 10px;
+    padding:  16px 20px 16px 46px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 30px;
+    transition: all .3s;
+    height: auto;
+    cursor: pointer;
+    position: relative;
+    outline: none;
+}
+/** end start here radio button css like a button **/
+</style>
 @section('content')
     
 
@@ -78,23 +202,28 @@
 								</div>
 							</div>
                             <div class="row">
-								<div class="col-md-8">
+								<div class="col-md-12">
 									<div class="form-group">
 								    	<input type="email" class="form-control" placeholder="Téléphone">
 								    </div>
 								</div>
-								<div class="col-md-4">
-									<div class="form-group">
-								    	<select name="" class="form-control" id="">
-                                            <option selected value="Recevoir la brochure">Recevoir la brochure</option>
-                                            <option value="Demander à être rappelé">Demander à être rappelé</option>
-                                            <option value="Aministratif">Aministratif</option>
-                                            <option value="Autres">Autres</option>
-                                        </select>
-								    </div>
-								</div>
+								
 								
 							</div>
+							<button type="button" class="btn_choose_sent bg_btn_chose_3 mb-3">
+								<input type="radio" name="code" value="Recevoir la brochure" />  Recevoir la brochure
+							</button>
+							  {{-- another --}}
+							
+							<button type="button" class="btn_choose_sent bg_btn_chose_2 mb-3">
+								<input type="radio" name="code" value="Demander à être rappelé" />Demander à être rappelé
+							</button>
+							<button type="button" class="btn_choose_sent bg_btn_chose_3 mb-3">
+								<input type="radio" name="code" value="Aministratif" />  Aministratif
+							</button>
+							<button type="button" class="btn_choose_sent bg_btn_chose_1 mb-3">
+								<input type="radio" name="code" value="Autres" /> Autres
+							</button>
 						  	<div class="form-group">
 							    <textarea class="form-control" placeholder="Message" rows="8"></textarea>
 							</div>

@@ -72,7 +72,7 @@
                             <a href="{{url('about')}}">À PROPOS</a>
                         </li>
                         <li>
-                            <a href="{{url('product')}}">PRODUITS
+                            <a href="{{url('product')}}">MÉTAUX PRÉCIEUX
                                 </a>
                         </li>
                         
@@ -332,17 +332,10 @@
                 <div class="col-xl-5 offset-md-1 col-md-6 col-sm-10 align-self-center">
                     <div class="ps-5 ms-5">
                         <div class="section-title">
-                            <h2 class="title">Turbine Technology</h2>
-                            <p>Extremity sweetness difficult behaviour he of. On disposal of as landlord horrible. Afraid at highly months do things on at. Situation</p>
+                            <h2 class="title">Technologie des turbines</h2>
+                            <p>Les turbines des centrales électriques de toutes sortes assurent un approvisionnement énergétique fiable, les turbines des avions permettent des voyages aériens toujours plus efficaces. Cependant, seuls l'hafnium, le rhénium et le praséodymicane peuvent être utilisés pour construire des turbines répondant aux exigences modernes.</p>
                         </div>
-                        <ul class="pl-list-inner style-1">
-                            <li><i class="fa fa-check"></i>Pro features coming soon ...</li>
-                            <li><i class="fa fa-check"></i>Personalized inbox</li>
-                            <li><i class="fa fa-check"></i>Bookmark links</li>
-                            <li><i class="fa fa-check"></i>Browse by category</li>
-                            <li><i class="fa fa-check"></i>Search through archives</li>
-                            <li><i class="fa fa-check"></i>Dark version available soon</li>
-                        </ul> 
+                        
                     </div>                  
                 </div>
                 <div class="col-lg-5 col-md-5 d-none d-md-block align-self-center">
@@ -392,7 +385,7 @@
                 <div class="col-lg-8">
                     <div class="section-title text-center">
                         <h2 class="title">Investissez dans le futur</h2>
-                        <a href="contact.html" class=""><a class="btn btn-blue" href="index.html"><i class="fa fa-book"></i>Demande de brochure gratuite</a></a>
+                        <a href="/contact" class=""><a class="btn btn-blue" href="/contact"><i class="fa fa-book"></i>Demande de brochure gratuite</a></a>
                     </div>
                 </div>
                 <div class="col-md-12 d-none">
@@ -541,7 +534,7 @@
                 <div class="col-lg-11">
                     <div class="video-inner">
                         <img src="img/other/video.png" alt="img">
-                        <a class="play-btn" href="../../../external.html?link=https://www.youtube.com/embed/Wimkqo8gDZ0" data-effect="mfp-zoom-in"><img src="img/icon/play.png" alt="img"></a>
+                        <a class="play-btn" href="" data-effect="mfp-zoom-in"><img src="img/icon/play.png" alt="img"></a>
                     </div>          
                 </div>          
             </div>  
@@ -569,13 +562,13 @@
                             <div class="col-lg-6">
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingOne">
-                                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                                         
                                        Quelques clefs pour décrypter les marchés des métaux
  
                                       </button>
                                     </h2>
-                                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                       <div class="accordion-body">
                                         Elio Strategy dispose d’une équipe de professionnels expérimentés et dévoués qui connaissent bien le domaine des métaux des terres rares. Notre équipe a une longue expérience de réussite dans l’industrie, et nous nous engageons à investir dans l’avenir de cette ressource essentielle. Notre équipe possède l’expertise et les connaissances nécessaires pour prendre les décisions les plus éclairées lorsqu’il s’agit d’investir dans les métaux des terres rares, et nous travaillerons sans relâche pour que nos clients obtiennent le meilleur retour sur investissement. <br>
                                         – Des professionnels expérimentés et compétents. <br>
@@ -590,13 +583,20 @@
                                     <h2 class="accordion-header" id="headingTwo">
                                       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                         
-                                        L’expérience et l’expertise de notre équipe
+                                        
+                                      Vous souhaitez commercialiser un produit innovant ?
+
  
                                       </button>
                                     </h2>
                                     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                       <div class="accordion-body">
-                                        Delay rapid joy share allow age manor six. Went why far saw many knew. Exquisite excellent son gentleman acuteness her.
+                                        
+
+                                        ELIO Strategy dans le cadre de son devellopement recrute des commerciaux.
+
+                                        Envoyez votre candidature à : <a href="mailto:administration@eliostrategy.com">administration@eliostrategy.com</a> ou remplissez le en cliqant <a href="/contact">ici</a>
+
                                       </div>
                                     </div>
                                   </div>
@@ -621,16 +621,20 @@
                             <div class="col-lg-6">
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingFour">
-                                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                                         
 
                                        Pour schématiser, on peut distinguer deux principaux types de crises :
 
                                       </button>
                                     </h2>
-                                    <div id="collapseFour" class="accordion-collapse collapse show" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                                       <div class="accordion-body">
-                                        Delay rapid joy share allow age manor six. Went why far saw many knew. Exquisite excellent son gentleman acuteness her.
+                                        Les crises liées à l’offre, liées à des interruptions temporaires et conjoncturelles de la production, de nature accidentelle (incidents techniques, aléas climatiques…etc.), ou intentionnelle (assèchement délibéré de l’offre, stockages stratégiques ou spéculatifs, quotas et restrictions à l’exportation…).
+                                        <br>
+                                        Les impacts de tels évènements sur le cours d’un métal dépendent de plusieurs facteurs importants détaillés dans les sections précédentes, notamment le degré de concentration de la production, les quantités de métal utilisé pour chaque application, l’éventualité de produits de substitution…
+                                        <br>
+                                        Les hausses les plus spectaculaires sont généralement constatées lors des crises liées à la demande, lorsque le métal est insubstituable et utilisé en faible quantité. En effet, malgré les quantités faibles mises en jeu par produit, la diffusion massive génère au global une hausse importante et très rapide de la demande, que le système productif est incapable de satisfaire. Pour les industriels, les faibles quantités de métal incorporées par produit font que la hausse, même massive du cours, a peu d’influence sur le coût global du produit. Pour les acheteurs, peu importe donc le prix à payer, le véritable risque s’avérant être celui de pénurie. Ces situations conduisent parfois à de véritables phénomènes d’emballements, les acheteurs procédant alors à des achats compulsifs qui alimentent la hausse exponentielle des cours.
                                       </div>
                                     </div>
                                   </div>
@@ -644,7 +648,28 @@
                                     </h2>
                                     <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                                       <div class="accordion-body">
-                                        Delay rapid joy share allow age manor six. Went why far saw many knew. Exquisite excellent son gentleman acuteness her.
+                                        Décrypter les marchés des métaux mineurs demande beaucoup de curiosité car l´exercice mobilise divers domaines de connaissance. Suivre et comprendre l’évolution du cours d’un métal conduit en effet à suivre toute une filière industrielle : à commencer par les projets miniers et leur exploitation, les procédés de raffinage, de métallurgies, de substitution, aux travaux de R&D, et enfin aux développements des filières de recyclage… Une telle diversité impose donc beaucoup d’exigence dans le travail d’analyse, mais elle contribue à le rendre d’autant plus passionnant. <br>
+                                        Cette section propose une vision panoramique des principaux facteurs à considérer pour étudier le marché des métaux rares et métaux critiques, afin de compléter ainsi les analyses de l’offre et de la demande présentées dans les sections précédentes. Rappelons que chaque métal doit faire l’objet d’une analyse fine et complète de sa chaîne d’approvisionnement, car, selon le métal considéré, les points de fragilités peuvent se faire à des niveaux très différents. L’analyse doit prendre en compte l’ensemble de la filière amont et aval, depuis la ressource minérale jusqu’au produit fini, et intégrer les activités des investisseurs et intermédiaires de marché. <br>
+                                        <br>
+                                        Le raisonnement proposé dans cette section s’articule autour de principes fondamentaux et génériques (valables pour tout marché), qu’il complète et amende selon les spécificités importantes des métaux mineurs détaillées dans les sections précédentes. Pour synthétiser ces spécificités importantes à considérer, on peut citer les points principaux suivants : <br>
+                                        <ul>
+                                            <li>  
+                                                 Les marchés des métaux mineurs et stratégiques connaissent des volumes d´échanges modestes par rapport aux échanges enregistrés sur les marchés traditionnels des métaux industriels. (- de 200 tonnes par an contre + de 19 Million de tonnes pour le cuivre par exemple);
+                                            </li>
+                                            <li>
+                                                Pour la plupart des métaux mineurs, il n’existe pas de cotation ni de place de marché officielle ; seul le cobalt et le molybdène font figure d’exception car ils sont côtés sur le London Métal Exchange depuis quelques années.
+
+                                            </li>
+                                            <li>
+                                                La balance entre l’offre et la demande connaît des déséquilibres de nature structurelle : face aux hausses parfois très violentes de la demande, le système productif, sous diverses contraintes, fait preuve d’une grande inertie. L’inélasticité entre l’offre et la demande est d’autant plus grande pour les métaux qui sont des coproduits ou sous-produits d’autres ressources minérales.
+
+                                            </li>
+                                            <li>
+                                                Conséquence du point précédent, les situations de crises et les ruptures d’approvisionnement sont relativement fréquentes et aiguës sur les marchés des métaux mineurs et génèrent de fortes tensions sur les prix et une forte volatilité.
+
+                                            </li>
+                                        </ul>
+                                        <img src="img/blog/truck.jpeg" alt="" srcset="">
                                       </div>
                                     </div>
                                   </div>
@@ -697,13 +722,13 @@
     <footer class="footer-area text-center" style="background: url(img/shape/footer-bg-1.png);">
         <div class="container">
             <div class="footer-thumb">
-                <a href="index.html">  <img src="img/logo-footer.png" alt="img"></a>
+                <a href="/">  <img src="img/logo-footer.png" alt="img"></a>
             </div>  
             <div class="widget-footer-link">
                 <ul>
                     <li><a href="{{url('/')}}">ACCEUIL</a></li>
                     <li><a href="{{url('about')}}">À PROPOS </a></li>
-                    <li><a href="{{url('/product')}}"">PRODUITS </a></li>
+                    <li><a href="{{url('/product')}}"">MÉTAUX PRÉCIEUX </a></li>
                     <li><a href="{{url('/contact')}}">CONTACT</a></li>
                     <li><a href="{{url('/mention')}}">MENTIONS LÉGALES</a></li>
                 </ul>

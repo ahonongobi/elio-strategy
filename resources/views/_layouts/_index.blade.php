@@ -69,8 +69,8 @@
                             <a href="{{('/about')}}">À PROPOS</a>
                         </li>
                         <li>
-                            <a href="{{url('product')}}">PRODUITS
-                                </a>
+                            <a href="{{url('product')}}">MÉTAUX PRÉCIEUX
+                                </a> 
                         </li>
                         
                         
@@ -90,13 +90,13 @@
     <footer class="footer-area text-center" style="background: url({{asset('img/shape/footer-bg-1.png')}});">
         <div class="container">
             <div class="footer-thumb">
-                <a href="index.html"><img src="{{asset('img/logo-footer.png')}}" alt="img"></a>
+                <a href="/"><img src="{{asset('img/logo-footer.png')}}" alt="img"></a>
             </div>  
             <div class="widget-footer-link">
                 <ul>
                     <li><a href="{{url('/')}}">ACCEUIL</a></li>
                     <li><a href="{{url('about')}}">À PROPOS </a></li>
-                    <li><a href="{{url('/product')}}"">PRODUITS </a></li>
+                    <li><a href="{{url('/product')}}"">MÉTAUX PRÉCIEUX </a></li>
                     <li><a href="{{url('/contact')}}">CONTACT</a></li>
                     <li><a href="{{url('/mention')}}">MENTIONS LÉGALES</a></li>
                 </ul>

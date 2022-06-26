@@ -11,7 +11,7 @@
                     <div class="breadcrumb-inner text-center">
                         <h1 class="page-title">A PROPOS</h1>
                         <ul class="page-list">
-                            <li><a href="index.html">Acceuil</a><i class="fa fa-angle-double-right" aria-hidden="true"></i></li>
+                            <li><a href="/">Acceuil</a><i class="fa fa-angle-double-right" aria-hidden="true"></i></li>
                             <li>A Propos</li>
                         </ul>
                     </div>
@@ -27,52 +27,52 @@
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-intro-wrap">
                         <img class="" style="width: 80px; height:80px;" src="img/featured/produit8.png" alt="">
-                        <h4><a href="about.html">Germanium </a></h4>
+                        <h4><a href="{{url('details/germanium')}}">Germanium </a></h4>
                     </div>                  
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-intro-wrap">
                         <img class="" style="width: 80px; height:80px;" src="img/featured/produit2.png" alt="">
-                        <h4><a href="about.html">Indium </a></h4>
+                        <h4><a href="{{url('details/indium')}}">Indium </a></h4>
                     </div>                  
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-intro-wrap">
                         <img class="" style="width: 80px; height:80px;" src="img/featured/produit3.png" alt="">
-                        <h4><a href="about.html">Dysprosium</a></h4>
+                        <h4><a href="{{url('details/dysprosium')}}">Dysprosium</a></h4>
                     </div>                  
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-intro-wrap">
                         <img class="" style="width: 80px; height:80px;" src="img/featured/produit4.png" alt="">
-                        <h4><a href="about.html">Gallium</a></h4>
+                        <h4><a href="{{url('details/gallium')}}">Gallium</a></h4>
                     </div>                  
                 </div>
 
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-intro-wrap">
                         <img class="" style="width: 80px; height:80px;" src="img/featured/produit5.png" alt="">
-                        <h4><a href="about.html">Terbium</a></h4>
+                        <h4><a href="{{url('details/terbium')}}">Terbium</a></h4>
                     </div>                  
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-intro-wrap">
                         <img class="" style="width: 80px; height:80px;" src="img/featured/produit1.png" alt="">
-                        <h4><a href="about.html">Neodyme</a></h4>
+                        <h4><a href="{{url('details/neodyme')}}">Neodyme</a></h4>
                     </div>                  
                 </div>
 
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-intro-wrap">
                         <img class="" style="width: 80px; height:80px;" src="img/featured/produit6.png" alt="">
-                        <h4><a href="about.html">Hafnium</a></h4>
+                        <h4><a href="{{url('details/hafnium')}}">Hafnium</a></h4>
                     </div>                  
                 </div>
 
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-intro-wrap">
                         <img class="" style="width: 80px; height:80px;" src="img/featured/produit7.png" alt="">
-                        <h4><a href="about.html">Praseodymium</a></h4>
+                        <h4><a href="{{url('details/praseodymium')}}">Praseodymium</a></h4>
                     </div>                  
                 </div>
             </div>
@@ -149,7 +149,7 @@
                 <div class="col-lg-8">
                     <div class="section-title mb-0 pb-5 text-center">
                         <h2 class="title">Investissez dans le futur</h2>
-                        <a href="index.html" class=""><a class="btn btn-blue" href="index.html"><i class="fa fa-book"></i>Demande de brochure gratuite</a></a>
+                        <a href="/contact" class=""><a class="btn btn-blue" href="/contact"><i class="fa fa-book"></i>Demande de brochure gratuite</a></a>
 
                     </div>
                 </div>
