@@ -36,6 +36,10 @@ Route::get('/product', function(){
 Route::get('/mention', function(){
     return view('mention');
 });
+
+Route::get('details/turbine', function(){
+    return view('turbine');
+});
 //details 
 Route::get('details/germanium',[DetailsController::class,'detailsGermanium']);
 Route::get('details/indium',[DetailsController::class,'detailsindium']);

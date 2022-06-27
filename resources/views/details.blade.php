@@ -63,12 +63,12 @@
                 <div class="widget widget-category">
                     <h4 class="widget-title">Metaux rares</h4>
                     <ul class="widget-list">
-                          <li><a href="">Germanium  <span></span></a></li>
-                          <li><a href="">Indium   <span></span></a></li>
-                          <li><a href="">Dysprosium <span></span></a></li>
-                          <li><a href="">Gallium  <span></span></a></li>
-                          <li><a href="">Terbium<span></span></a></li>
-                          <li><a href="">Neodyme<span></span></a></li>
+                          <li><a href="/details/germanium">Germanium  <span></span></a></li>
+                          <li><a href="/details/indium">Indium   <span></span></a></li>
+                          <li><a href="/details/dysprosium">Dysprosium <span></span></a></li>
+                          <li><a href="/details/gallium">Gallium  <span></span></a></li>
+                          <li><a href="/details/terbium">Terbium<span></span></a></li>
+                          <li><a href="/details/neodyme">Neodyme<span></span></a></li>
                       </ul>
                 </div>
                 

@@ -285,6 +285,8 @@
                                 Ce métal est ainsi essentiel aux turbines d’éoliennes off-shore et aux voitures electriques. <br> <br>
                                 En vertu de ces considérations, une forte augmentation de la demande en DYSPROSIUM est à prévoir.
                             </p>
+                            <a class="btn btn-blue active m-0 mt-3" href="/details/dysprosium">Lire plus <i class="fa fa-angle-right"></i></a>
+
                         </div>
                         
                     </div>                  
@@ -303,13 +305,13 @@
             <div class="row justify-content-center">
                 
                 <div class="col-xl-5 offset-md-1 col-md-6 col-sm-10 align-self-center">
-                    <div class="ps-5 ms-5">
+                    <div class="ps-5 ms-5 wow rollIn">
                         <img src="img/featured/image2.jpeg" alt="img">
     
                     </div>                  
                 </div>
                 <div  class="col-lg-5 col-md-5 d-none d-md-block align-self-center">
-                    <div class="thumb me-5 span3 wow rollInRight">
+                    <div class="thumb me-5 span3 ">
                         
                         <div class="section-title">
                             <h2 class="title">
@@ -318,6 +320,9 @@
                             <p>Le NÉODYME est l’une des seules Terres Rares qui apparaisse dans la liste* établie par la Commission Européenne des métaux classés, dont l’approvisionnement risque d’être problématique. S’ajoute à cela l’importance du NÉODYME pour de nombreuses technologies futures, la demande mondiale de NÉODYME serait amenée à quadrupler d’ici à l’horizon 2030.</p>
                             <br><br>
                             <p>Le NÉODYME est utilisé surtout pour la fabrication des aimants extrêmement puissants. Ces derniers ont la capacité de porter durablement 1.300 fois leur poids. Ils sont utilisés là où de forts champs magnétiques sont nécessaires en faible quantité, notamment dans des turbines pour des moteurs électriques hautement performants, dans des microphones ou des haut-parleurs des Smartphones, autrement dit dans les technologies de pointe.</p>
+
+                            <a class="btn btn-blue active m-0 mt-3" href="/details/neodyme">Lire plus <i class="fa fa-angle-right"></i></a>
+
                         </div>
                     </div>
                 </div>
@@ -334,6 +339,8 @@
                         <div class="section-title">
                             <h2 class="title">Technologie des turbines</h2>
                             <p>Les turbines des centrales électriques de toutes sortes assurent un approvisionnement énergétique fiable, les turbines des avions permettent des voyages aériens toujours plus efficaces. Cependant, seuls l'hafnium, le rhénium et le praséodymicane peuvent être utilisés pour construire des turbines répondant aux exigences modernes.</p>
+                            <a class="btn btn-blue active m-0 mt-3" href="/details/turbine">Lire plus <i class="fa fa-angle-right"></i></a>
+
                         </div>
                         
                     </div>                  
