@@ -7,10 +7,14 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="breadcrumb-inner text-center">
-                    <h1 class="page-title">Germanium</h1>
+                    <h1 class="page-title">
+                        Technologie de Turbine
+                        </h1>
                     <ul class="page-list">
                         <li><a href="/">Acceuil</a><i class="fa fa-angle-double-right" aria-hidden="true"></i></li>
-                        <li><a href="">Germanium</a><i class="fa fa-angle-double-right" aria-hidden="true"></i></li>
+                        <li><a href="">
+                            Technologie de Turbine
+                            </a><i class="fa fa-angle-double-right" aria-hidden="true"></i></li>
                         <li></li>
                     </ul>
                 </div>
@@ -117,7 +121,6 @@
 </div>
 
  <!-- subscribe-Area Start-->
-   
    <!-- subscribe-Area Start-->
    <section class="subscribe-area pd-top-140 pd-bottom-150 shape-1">
     <div class="container-fluid">

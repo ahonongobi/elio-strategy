@@ -27,7 +27,11 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> 
     <!--Google Fonts-->
     <link href="../../../fonts.googleapis.com/css2f59e.css?family=Playfair+Display:wght@400;500;600;700;800&amp;family=Poppins:wght@300;400;500;600;700;800&amp;family=Roboto:wght@300;400;500;700&amp;display=swap" rel="stylesheet">
-
+    <style>
+        .displ-none{
+            display: none;
+        }
+    </style>
 </head>
 <body class="home-3">
 
@@ -717,8 +721,11 @@
                 </div>
                 <div class="col-lg-7 col-sm-10">
                     <div class="single-subscribe-wrap">
-                        <input type="text" placeholder="Adresse Email">
-                        <button class="btn btn-black">SOUSCRIRE</button>
+                        <form action="{{url('subscribe')}}" method="post">
+                            @csrf
+                            <input type="text" name="email" placeholder="Adresse E-mail">
+                        <button class="btn btn-black">RECEVOIR</button>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -767,7 +774,21 @@
         </div>
     </footer>
     <!-- footer area end -->        
-
+     <!-- cookies consent -->
+     <div class="displ-none" id="simple-cookie-consent">
+        <div class="cookie-consent-container">
+          <div class="cookie-consent-notice">
+            <h4>Vos préférences en matière de cookies</h4>
+            <hr>
+            <p><a style="color: #781cb8" href="/">Elio strategy</a> utilise des cookies pour offrir à nos utilisateurs la meilleure expérience. Vous pouvez gérer vos paramètres ci-dessous ou le découvrir en lisant notre <a href="#">Politique relative aux cookies</a>.</p>
+          </div>
+          <div class="cookie-consent-selection">
+            <button onclick="return alert('Les cookies sont nécessaires')"  class="cookie-consent-deny">Décliner</button>
+            <button id="cookie-consent-allow" class="cookie-consent-allow">Autoriser tous les cookies</button>
+          </div>
+        </div>
+      </div>
+     <!--end cookies consent -->
     <!-- back to top area start -->
     <div class="back-to-top">
         <span class="back-top"><i class="fa fa-angle-up"></i></span>
@@ -823,6 +844,31 @@
     <script src="js/counterup.js"></script>
     <!-- main js  -->
     <script src="js/main.js"></script>
+    <script>
+        $(window).on('load',function(){
+           if(localStorage.getItem('cookieconsent', true)){
+            document.getElementById("simple-cookie-consent").style.display="none";
+           }
+        })
+        
+    </script>
+    <script>
+        
+
+        (function() {
+            if (!localStorage.getItem('cookieconsent')) {
+                document.getElementById("simple-cookie-consent").style.display="block";
+                document.getElementById('cookie-consent-allow').onclick = function(e) {
+
+                    e.preventDefault();
+                    document.getElementById("simple-cookie-consent").style.display="none";
+                    localStorage.setItem('cookieconsent', true);
+                };
+            }
+        })();
+    
+    
+    </script>
 </body>
 
 </html>

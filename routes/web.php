@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ActionCOntroller;
 use App\Http\Controllers\DetailsController;
 use Illuminate\Support\Facades\Route;
 
@@ -40,6 +41,9 @@ Route::get('/mention', function(){
 Route::get('details/turbine', function(){
     return view('turbine');
 });
+Route::get('sucess', function(){
+    return view('sucess');
+});
 //details 
 Route::get('details/germanium',[DetailsController::class,'detailsGermanium']);
 Route::get('details/indium',[DetailsController::class,'detailsindium']);
@@ -49,5 +53,7 @@ Route::get('details/terbium',[DetailsController::class,'detailsterbium']);
 Route::get('details/neodyme',[DetailsController::class,'detailsneodyme']);
 Route::get('details/hafnium',[DetailsController::class,'detailshafnium']);
 Route::get('details/praseodymium',[DetailsController::class,'detailspraseodymium']);
+
+Route::post('subscribe',[ActionCOntroller::class,'subscribe']);
 
 

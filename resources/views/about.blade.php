@@ -1,5 +1,5 @@
 @extends('_layouts._index')
-
+<link rel="stylesheet" href="{{asset('css/gallery.css')}}">
 @section('content')
     
    
@@ -163,6 +163,55 @@
             </div>
         </div>
     </section>
+    <!-- gallery start here -->
+    
+        
+        <div class="conatiner mb-5">
+            <h2 class="d-flex justify-content-center">
+                Des matières premières indispensables
+            </h2>
+            <main class="lightbox lightbox__content--flow">
+                <picture class="card-gobi">
+                  <img src="https://cdn.futura-sciences.com/buildsv6/images/mediumoriginal/a/a/e/aae4372f46_84845_album-terre-rare7.jpg" alt="">
+                </picture>
+                <picture class="card-gobi">
+                  <img src="{{asset('img/banner/neodyme.jpg')}}" alt="">
+                </picture>
+                <picture class="card-gobi">
+                  <img src="{{asset('img/banner/avion-dysp.jpeg')}}" alt="">
+                </picture>
+                <picture class="card-gobi">
+                  <img src="{{asset('img/banner/5ca8cec881_84847_album-terre-rare8.jpg')}}" alt="">
+                </picture>
+                <picture class="card-gobi">
+                  <img src="{{asset('img/banner/e4d775659a_84856_album-terre-rare16.jpg')}}" alt="">
+                </picture>
+                <picture class="card-gobi">
+                  <img src="{{asset('img/banner/terbium.jpg')}}" alt="">
+                </picture>
+                <picture class="card-gobi">
+                  <img src="{{asset('img/banner/520cddb887_84853_album-terre-rare14.jpg')}}" alt="">
+                </picture>
+                <picture class="card-gobi">
+                  <img src="{{asset('img/banner/10795719f7_84855_album-terre-rare17.jpg')}}" alt="">
+                </picture>
+                <picture class="card-gobi">
+                  <img src="{{asset('img/banner/7a06b2d65f_84846_album-terre-rare9.jpg')}}" alt="">
+                </picture>
+                <picture class="card-gobi">
+                  <img src="{{asset('img/banner/3e26eea5b2_84854_album-terre-rare15.jpg')}}" alt="">
+                </picture>
+                <picture class="card-gobi">
+                  <img src="{{asset('img/banner/cbc7d52c96_84843_album-terre-rare3.jpg')}}" alt="">
+                </picture>
+                <picture class="card-gobi">
+                  <img src="{{asset('img/banner/032ca2b67a_84849_album-terre-rare1.jpg')}}" alt="">
+                </picture>
+              </main>
+        </div>
+
+
+    <!-- end gallery -->
     <!--Screenshot-area end-->
 
     <!-- testimonial-Area Start-->
@@ -192,5 +241,28 @@
         </div> 
     </section>
     <!-- subscribe-Area end-->
+   <script>
+            const showImage = document.createElement("div");
+        showImage.classList.add("showImage");
+        document.body.appendChild(showImage);
 
+        const images = document.querySelectorAll("img");
+        images.forEach((image) => {
+        image.addEventListener("click", (e) => {
+            showImage.classList.add("active");
+            const img = document.createElement("img");
+            img.src = image.src;
+            while (showImage.firstChild) {
+            showImage.removeChild(showImage.firstChild);
+            }
+            showImage.appendChild(img);
+        });
+        });
+
+        showImage.addEventListener("click", (e) => {
+        if (e.target !== e.currentTarget) return;
+        showImage.classList.remove("active");
+        });
+
+   </script>
 	@endsection
