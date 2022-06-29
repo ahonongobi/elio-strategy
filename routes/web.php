@@ -55,5 +55,6 @@ Route::get('details/hafnium',[DetailsController::class,'detailshafnium']);
 Route::get('details/praseodymium',[DetailsController::class,'detailspraseodymium']);
 
 Route::post('subscribe',[ActionCOntroller::class,'subscribe']);
+Route::post('contactMessage',[ActionCOntroller::class,'contactMessage']);
 
 

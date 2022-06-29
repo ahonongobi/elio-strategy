@@ -137,7 +137,7 @@
         var options = {
       "enabled":true,
       "chatButtonSetting":{
-          "backgroundColor":"#1f2873", 
+          "backgroundColor":"#0b2a40", 
           "ctaText":"Nous écrire..",
           "borderRadius":"50",
           "marginLeft":"0",
@@ -151,7 +151,7 @@
           "brandImg":"img/fevicon.png",
           "welcomeText":"Bonjour !\nComment puis-je vous aider ? \n ",
           "messageText":" Salut ! Comment ça marche ?",
-          "backgroundColor":"#1f2873",
+          "backgroundColor":"#0b2a40",
           "ctaText":"Nous écrire..",
           "borderRadius":"25",
           "autoShow":false,

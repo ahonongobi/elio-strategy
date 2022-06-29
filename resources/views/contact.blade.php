@@ -183,35 +183,36 @@
 						<div class="title">
 							Recevez votre consultation ainsi que notre brochure gratuitement
 						</div>
-						<form class="text-center">
+						<form action="{{url('contactMessage')}}" method="POST" class="text-center">
+							@csrf
 							<div class="row">
 								<div class="col-md-4">
 									<div class="form-group">
-								    	<input type="email" class="form-control" placeholder="Nom et Prénom">
+								    	<input type="text" required name="name" class="form-control" placeholder="Nom et Prénom">
 								    </div>
 								</div>
 								<div class="col-md-4">
 									<div class="form-group">
-								    	<input type="email" class="form-control" placeholder="Email">
+								    	<input type="email"  required email="email" class="form-control" placeholder="Email">
 								    </div>
 								</div>
 								<div class="col-md-4">
 									<div class="form-group">
-								    	<input type="email" class="form-control" placeholder="Website">
+								    	<input type="text" name="title"  class="form-control" placeholder="Titre">
 								    </div>
 								</div>
 							</div>
                             <div class="row">
 								<div class="col-md-12">
 									<div class="form-group">
-								    	<input type="email" class="form-control" placeholder="Téléphone">
+								    	<input type="text" name="tel" class="form-control" placeholder="Téléphone">
 								    </div>
 								</div>
 								
 								
 							</div>
 							<button type="button" class="btn_choose_sent bg_btn_chose_3 mb-3">
-								<input type="radio" name="code" value="Recevoir la brochure" />  Recevoir la brochure
+								<input type="radio" checked name="code" value="Recevoir la brochure" />  Recevoir la brochure
 							</button>
 							  {{-- another --}}
 							
@@ -225,7 +226,7 @@
 								<input type="radio" name="code" value="Autres" /> Autres
 							</button>
 						  	<div class="form-group">
-							    <textarea class="form-control" placeholder="Message" rows="8"></textarea>
+							    <textarea class="form-control" name="message" required placeholder="Message" rows="8"></textarea>
 							</div>
 						  	
 						  	<button type="submit" class="common-btn">ENVOYER LE MESSAGE</button>

@@ -36,8 +36,12 @@
     # Typography
 -----------------*/
 :root {
-  --main-color: #8E6DFD;
+  /**--main-color: #8E6DFD;
   --heading-color: #1F2873;
+  
+  **/
+  --main-color: #0b2a40;
+  --heading-color: #0b2a40;
   --paragraph-color: #4d4d4d;
   --heading-font: "Poppins", sans-serif;
   --body-font: 'Poppins', sans-serif;
@@ -579,7 +583,8 @@ ul {
 }
 
 .btn-blue {
-  background: #1C8EF4;
+  /**background: #1C8EF4; **/
+  background: #0b2a40; 
   color: #ffffff;
 }
 .btn-blue:hover {

@@ -102,7 +102,7 @@
                             </h1>
                         <p>Un constat confirmé chaque année aujourd’hui encore, tant leur utilisation ne cesse de croître dans la production industrielle mondiale. En effet, ce groupe de 17 métaux précieux est devenu l’un des facteurs clé de la croissance mondiale.</p>
                         <a href="/contact" class="mt-3"><a class="btn btn-blue mt-3" href="/contact"><i class="fa fa-book"></i>Demande de brochure gratuite</a></a>
-                        <a class="btn btn-blue active m-0 mt-3" href="/contact"><i class="fa fa-phone-square"></i>Contactez-nous</a>
+                        <a style="" class="btn btn-blue active m-0 mt-3" href="/contact"><i class="fa fa-phone-square"></i>Contactez-nous</a>
                     </div>
                         <div class="row mt-5 justify-content-center">
                                 
@@ -554,7 +554,11 @@
      </section>
     <!-- video-Area End-->
     <!-- testimonial-Area Start-->
-    
+    <section>
+        <div class="container d-flex justify-content-center">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/nuITGO1FSEY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </section>
     <!-- testimonial-Area End-->
 
     <!-- faq-Area start-->
@@ -708,6 +712,7 @@
         </div>
     </section>
     <!-- faq-Area End-->
+       {{-- add a +b --}}
 
     <!-- subscribe-Area Start-->
     <section class="subscribe-area pd-bottom-150 ps-0">
@@ -723,7 +728,7 @@
                     <div class="single-subscribe-wrap">
                         <form action="{{url('subscribe')}}" method="post">
                             @csrf
-                            <input type="text" name="email" placeholder="Adresse E-mail">
+                            <input type="text" required name="email" placeholder="Adresse E-mail">
                         <button class="btn btn-black">RECEVOIR</button>
                         </form>
                     </div>
@@ -804,7 +809,7 @@
     var options = {
   "enabled":true,
   "chatButtonSetting":{
-      "backgroundColor":"#1f2873", 
+      "backgroundColor":"#0b2a40", 
       "ctaText":"Nous écrire..",
       "borderRadius":"50",
       "marginLeft":"0",
@@ -818,7 +823,7 @@
       "brandImg":"img/fevicon.png",
       "welcomeText":"Bonjour !\nComment puis-je vous aider ? \n. ",
       "messageText":" Salut ! Comment ça marche ?",
-      "backgroundColor":"#1f2873",
+      "backgroundColor":"#0b2a40",
       "ctaText":"Nous écrire..",
       "borderRadius":"25",
       "autoShow":false,

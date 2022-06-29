@@ -155,8 +155,12 @@
                         <p>Vous recevrez des notifications  provénant d'elio strategy</p>
                     </div>
                     <div class="single-subscribe-wrap">
-                        <input type="text" required placeholder="Adresse e-mail">
-                        <button class="btn btn-black">SOUSCRIRE</button>
+                        <form action="{{url('subscribe')}}" method="post">
+                            @csrf
+                            <input type="text" required placeholder="Adresse e-mail">
+                            <button class="btn btn-black">RECEVOIR</button>
+                        </form>
+                        
                     </div>                  
                 </div>
                 <div class="col-lg-6 col-xl-5 offset-xl-1 d-none d-lg-block align-self-end">
