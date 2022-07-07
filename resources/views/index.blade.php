@@ -64,7 +64,7 @@
                     </button>
                 </div>
                 <div class="logo">
-                    <a class="main-logo" href="/"><!--<img src="img/_logo-blanc2.png" style="height: 80px !important ;width: 90px !important" alt="img"> --> <h2><img style="width: 50px;height:50px" src="img/fevicon.png" alt="" />  ELIO STRATEGY</h2></a>
+                    <a class="main-logo" href="/"><!--<img src="img/_logo-blanc2.png" style="height: 80px !important ;width: 90px !important" alt="img"> --> <h2><img style="height: 80px !important ;width: 90px !important" src="img/logo-blanc2.png" alt="" />  ELIO STRATEGY</h2></a>
                 </div>
                 <div class="collapse navbar-collapse" id="themefie_main_menu">
                     <ul class="navbar-nav menu-open ml-auto">
@@ -76,7 +76,7 @@
                             <a href="{{url('about')}}">À PROPOS</a>
                         </li>
                         <li>
-                            <a href="{{url('product')}}">MÉTAUX PRÉCIEUX
+                            <a href="{{url('product')}}">PERLES PRÉCIEUX
                                 </a>
                         </li>
                         
@@ -92,7 +92,7 @@
     <!-- navbar end -->
 
     <!-- Banner Area Start-->
-    <section class="banner-area style-3" style="background: url(img/banner/bg.png);">
+    <section class="banner-area style-3" style="background: url(img/banner/bg-change.png);">
         <div class="container-fluid">
             <div class="row justify-content-center">
                 <div class="col-xl-4 col-lg-5 col-sm-10 offset-xl-2 align-self-center">
@@ -739,16 +739,16 @@
     <!-- subscribe-Area end-->
 
     <!-- footer area start -->
-    <footer class="footer-area text-center" style="background: url(img/shape/footer-bg-1.png);">
+    <footer class="footer-area text-center" style="background: url(img/shape/new_footer-bg.png);">
         <div class="container">
             <div class="footer-thumb">
-                <a href="/">  <img src="img/logo-footer.png" alt="img"></a>
+                <a href="/">  <img style="height: 80px !important ;width: 90px !important" src="img/logo-blanc2.png" alt="img"></a>
             </div>  
             <div class="widget-footer-link">
                 <ul>
                     <li><a href="{{url('/')}}">ACCEUIL</a></li>
                     <li><a href="{{url('about')}}">À PROPOS </a></li>
-                    <li><a href="{{url('/product')}}"">MÉTAUX PRÉCIEUX </a></li>
+                    <li><a href="{{url('/product')}}"">PERLES RARES</a></li>
                     <li><a href="{{url('/contact')}}">CONTACT</a></li>
                     <li><a href="{{url('/mention')}}">MENTIONS LÉGALES</a></li>
                 </ul>

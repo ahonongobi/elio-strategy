@@ -57,7 +57,7 @@
                     </button>
                 </div>
                 <div class="logo">
-                    <a class="main-logo" href="/"><h2><img style="width: 30px;height:30px" src="{{asset('img/fevicon.png')}}" alt="" />  ELIO STRATEGY</h2></a>
+                    <a class="main-logo" href="/"><h2><img style="height: 80px !important ;width: 90px !important" src="{{asset('img/logo-blanc2.png')}}" alt="" />  ELIO STRATEGY</h2></a>
                 </div>
                 <div class="collapse navbar-collapse" id="themefie_main_menu">
                     <ul class="navbar-nav menu-open ml-auto">
@@ -87,16 +87,16 @@
     @yield('content')
 
     <!-- footer area start -->
-    <footer class="footer-area text-center" style="background: url({{asset('img/shape/footer-bg-1.png')}});">
+    <footer class="footer-area text-center" style="background: url({{asset('img/shape/new_footer-bg.png')}});">
         <div class="container">
             <div class="footer-thumb">
-                <a href="/"><img src="{{asset('img/logo-footer.png')}}" alt="img"></a>
+                <a href="/"><img style="height: 80px !important ;width: 90px !important" src="{{asset('img/logo-blanc2.png')}}" alt="img"></a>
             </div>  
             <div class="widget-footer-link">
-                <ul>
+                <ul> 
                     <li><a href="{{url('/')}}">ACCEUIL</a></li>
                     <li><a href="{{url('about')}}">À PROPOS </a></li>
-                    <li><a href="{{url('/product')}}"">MÉTAUX PRÉCIEUX </a></li>
+                    <li><a href="{{url('/product')}}">PERLES PRÉCIEUX </a></li>
                     <li><a href="{{url('/contact')}}">CONTACT</a></li>
                     <li><a href="{{url('/mention')}}">MENTIONS LÉGALES</a></li>
                 </ul>
