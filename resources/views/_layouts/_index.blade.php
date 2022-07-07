@@ -57,7 +57,7 @@
                     </button>
                 </div>
                 <div class="logo">
-                    <a class="main-logo" href="/"><h2><img style="height: 80px !important ;width: 90px !important" src="{{asset('img/logo-blanc2.png')}}" alt="" />  ELIO STRATEGY</h2></a>
+                    <a class="main-logo" href="/"><h4><img style="height: 80px !important ;width: 90px !important" src="{{asset('img/logo-blanc2.png')}}" alt="" />  ELIO STRATEGY</h4></a>
                 </div>
                 <div class="collapse navbar-collapse" id="themefie_main_menu">
                     <ul class="navbar-nav menu-open ml-auto">
@@ -69,7 +69,11 @@
                             <a href="{{('/about')}}">À PROPOS</a>
                         </li>
                         <li>
-                            <a href="{{url('product')}}">MÉTAUX PRÉCIEUX
+                            <a href="{{url('product')}}">TERRES RARES
+                                </a> 
+                        </li>
+                        <li>
+                            <a target="_blank"  href="{{url('blog.eliostrategy.com')}}">ACTUALITÉS
                                 </a> 
                         </li>
                         
@@ -87,23 +91,23 @@
     @yield('content')
 
     <!-- footer area start -->
-    <footer class="footer-area text-center" style="background: url({{asset('img/shape/new_footer-bg.png')}});">
+    <footer class="footer-area text-center" style="background-color: #002c3e;">
         <div class="container">
             <div class="footer-thumb">
-                <a href="/"><img style="height: 80px !important ;width: 90px !important" src="{{asset('img/logo-blanc2.png')}}" alt="img"></a>
+                <a href="/">  <img style="height: 80px !important ;width: 90px !important" src="img/logo-blanc2.png" alt="img"></a>
             </div>  
             <div class="widget-footer-link">
-                <ul> 
-                    <li><a href="{{url('/')}}">ACCEUIL</a></li>
+                <ul>
+                    <li><a  href="{{url('/')}}">ACCEUIL</a></li>
                     <li><a href="{{url('about')}}">À PROPOS </a></li>
-                    <li><a href="{{url('/product')}}">PERLES PRÉCIEUX </a></li>
+                    <li><a href="{{url('/product')}}"">TERRES RARES</a></li>
                     <li><a href="{{url('/contact')}}">CONTACT</a></li>
                     <li><a href="{{url('/mention')}}">MENTIONS LÉGALES</a></li>
                 </ul>
             </div> 
             <div class="widget-footer-social">
                 <ul>
-                    <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
+                    <li><a class="d-flex justify-content-center"  href="#"><i style="text-align: center !important;margin-top:2%" class="fa fa-facebook-f"></i></a></li>
                     <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                     <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
                     <li><a href="#"><i class="fa fa-google"></i></a></li>
@@ -115,7 +119,13 @@
         <div class="footer-bottom">
             <div class="container">
                 <div class="copyright-area">
-                    <p>© 2020 Elio strategy. All Rights Reserved <a href="/mention">Mentions légales</a> </p>                        
+                    <p>© 2022 ELIO STRATEGY
+
+                        . Tout droits réservés
+
+                          <a href="mailto:contact@eliostrategy.com">contact@eliostrategy.com</a>
+
+                    </p>                        
                 </div>              
             </div>
         </div>
@@ -128,42 +138,7 @@
     </div>
     <!-- back to top area end -->
 
-    <script>
-        var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?10582';
-        var s = document.createElement('script');
-        s.type = 'text/javascript';
-        s.async = true;
-        s.src = url;
-        var options = {
-      "enabled":true,
-      "chatButtonSetting":{
-          "backgroundColor":"#0b2a40", 
-          "ctaText":"Nous écrire..",
-          "borderRadius":"50",
-          "marginLeft":"0",
-          "marginBottom":"25",
-          "marginRight":"25",
-          "position":"right"
-      },
-      "brandSetting":{
-          "brandName":"Elio Strategy",
-          "brandSubTitle":"Jean Baptiste",
-          "brandImg":"img/fevicon.png",
-          "welcomeText":"Bonjour !\nComment puis-je vous aider ? \n ",
-          "messageText":" Salut ! Comment ça marche ?",
-          "backgroundColor":"#0b2a40",
-          "ctaText":"Nous écrire..",
-          "borderRadius":"25",
-          "autoShow":false,
-          "phoneNumber":"33(0)533893440"
-      }
-    };
-        s.onload = function() {
-            CreateWhatsappChatWidget(options);
-        };
-        var x = document.getElementsByTagName('script')[0];
-        x.parentNode.insertBefore(s, x);
-    </script> 
+    
     <!-- all plugins here -->
     <script src="{{asset('js/jquery-3.5.1.min.js')}}"></script>
     <script src="{{asset('js/bootstrap.min.js')}}"></script>

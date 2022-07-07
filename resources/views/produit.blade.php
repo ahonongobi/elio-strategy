@@ -8,7 +8,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="breadcrumb-inner text-center">
-                        <h1 class="page-title">MÉTAUX PRÉCIEUX</h1>
+                        <h1 class="page-title"> TERRES RARES </h1>
                         <ul class="page-list">
                             <li><a href="/">Acceuil</a><i class="fa fa-angle-double-right" aria-hidden="true"></i></li>
                             <li>produits</li>
@@ -24,52 +24,52 @@
         <div class="container">
             
             <div class="row">
-                <div class="col-lg-3 col-sm-6">
+                <div class="col-lg-3 col-6">
                     <div class="single-intro-wrap">
                         <img class="" style="width: 80px; height:80px;" src="img/featured/produit8.png" alt="">
                         <h4><a href="{{url('details/germanium')}}">Germanium </a></h4>
                     </div>                  
                 </div>
-                <div class="col-lg-3 col-sm-6">
+                <div class="col-lg-3 col-6">
                     <div class="single-intro-wrap">
                         <img class="" style="width: 80px; height:80px;" src="img/featured/produit2.png" alt="">
                         <h4><a href="{{url('details/indium')}}">Indium </a></h4>
                     </div>                  
                 </div>
-                <div class="col-lg-3 col-sm-6">
+                <div class="col-lg-3 col-6">
                     <div class="single-intro-wrap">
                         <img class="" style="width: 80px; height:80px;" src="img/featured/produit3.png" alt="">
                         <h4><a href="{{url('details/dysprosium')}}">Dysprosium</a></h4>
                     </div>                  
                 </div>
-                <div class="col-lg-3 col-sm-6">
+                <div class="col-lg-3 col-6">
                     <div class="single-intro-wrap">
                         <img class="" style="width: 80px; height:80px;" src="img/featured/produit4.png" alt="">
                         <h4><a href="{{url('details/gallium')}}">Gallium</a></h4>
                     </div>                  
                 </div>
 
-                <div class="col-lg-3 col-sm-6">
+                <div class="col-lg-3 col-6">
                     <div class="single-intro-wrap">
                         <img class="" style="width: 80px; height:80px;" src="img/featured/produit5.png" alt="">
                         <h4><a href="{{url('details/terbium')}}">Terbium</a></h4>
                     </div>                  
                 </div>
-                <div class="col-lg-3 col-sm-6">
+                <div class="col-lg-3 col-6">
                     <div class="single-intro-wrap">
                         <img class="" style="width: 80px; height:80px;" src="img/featured/produit1.png" alt="">
                         <h4><a href="{{url('details/neodyme')}}">Neodyme</a></h4>
                     </div>                  
                 </div>
 
-                <div class="col-lg-3 col-sm-6">
+                <div class="col-lg-3 col-6">
                     <div class="single-intro-wrap">
                         <img class="" style="width: 80px; height:80px;" src="img/featured/produit6.png" alt="">
                         <h4><a href="{{url('details/hafnium')}}">Hafnium</a></h4>
                     </div>                  
                 </div>
 
-                <div class="col-lg-3 col-sm-6">
+                <div class="col-lg-3 col-6">
                     <div class="single-intro-wrap">
                         <img class="" style="width: 80px; height:80px;" src="img/featured/produit7.png" alt="">
                         <h4><a href="{{url('details/praseodymium')}}">Praseodymium</a></h4>
@@ -114,7 +114,7 @@
     </div>
 </section>
 <!-- fact-count-Area End-->
-<section style="margin-top: 10%" class="subscribe-area pd-top-150 pd-bottom-150 shape-1 bg-white">
+<section style="margin-top: 10%" class="subscribe-area pd-top-150 pd-bottom-150 shape-1 bg-white d-none">
     <div class="container">
         <h2 class="">Évolution des prix des métaux précieux*</h2>
         <div class="row">

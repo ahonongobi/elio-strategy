@@ -28,7 +28,9 @@ Route::get('/about', function(){
 Route::get('/contact', function(){
     return view('contact');
 });
-
+Route::get('blog.eliostrategy.com',function(){
+  return redirect()->to('http://blog.eliostrategy.com');
+});
 //route product
 Route::get('/product', function(){
     return view('produit');

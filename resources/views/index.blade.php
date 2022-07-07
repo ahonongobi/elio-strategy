@@ -64,7 +64,7 @@
                     </button>
                 </div>
                 <div class="logo">
-                    <a class="main-logo" href="/"><!--<img src="img/_logo-blanc2.png" style="height: 80px !important ;width: 90px !important" alt="img"> --> <h2><img style="height: 80px !important ;width: 90px !important" src="img/logo-blanc2.png" alt="" />  ELIO STRATEGY</h2></a>
+                    <a class="main-logo" href="/"><!--<img src="img/_logo-blanc2.png" style="height: 80px !important ;width: 90px !important" alt="img"> --> <h4><img style="height: 80px !important ;width: 90px !important" src="img/logo-blanc2.png" alt="" />  ELIO STRATEGY</h4></a>
                 </div>
                 <div class="collapse navbar-collapse" id="themefie_main_menu">
                     <ul class="navbar-nav menu-open ml-auto">
@@ -76,8 +76,12 @@
                             <a href="{{url('about')}}">À PROPOS</a>
                         </li>
                         <li>
-                            <a href="{{url('product')}}">PERLES PRÉCIEUX
+                            <a href="{{url('product')}}">TERRES RARES
                                 </a>
+                        </li>
+                        <li>
+                            <a target="_blank"  href="{{url('blog.eliostrategy.com')}}">ACTUALITÉS
+                            </a>
                         </li>
                         
                         
@@ -126,52 +130,52 @@
     <section class="intro-area pd-top-110 text-center">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-sm-6">
+                <div class="col-lg-3 col-6">
                     <div class="single-intro-wrap">
                         <img class="" style="width: 80px; height:80px;" src="img/featured/produit8.png" alt="">
                         <h4><a href="{{url('details/germanium')}}">Germanium </a></h4>
                     </div>                  
                 </div>
-                <div class="col-lg-3 col-sm-6">
+                <div class="col-lg-3 col-6">
                     <div class="single-intro-wrap">
                         <img class="" style="width: 80px; height:80px;" src="img/featured/produit2.png" alt="">
                         <h4><a href="{{url('details/indium')}}">Indium </a></h4>
                     </div>                  
                 </div>
-                <div class="col-lg-3 col-sm-6">
+                <div class="col-lg-3 col-6">
                     <div class="single-intro-wrap">
                         <img class="" style="width: 80px; height:80px;" src="img/featured/produit3.png" alt="">
                         <h4><a href="{{url('details/dysprosium')}}">Dysprosium</a></h4>
                     </div>                  
                 </div>
-                <div class="col-lg-3 col-sm-6">
+                <div class="col-lg-3 col-6">
                     <div class="single-intro-wrap">
                         <img class="" style="width: 80px; height:80px;" src="img/featured/produit4.png" alt="">
                         <h4><a href="{{url('details/gallium')}}">Gallium</a></h4>
                     </div>                  
                 </div>
 
-                <div class="col-lg-3 col-sm-6">
+                <div class="col-lg-3 col-6">
                     <div class="single-intro-wrap">
                         <img class="" style="width: 80px; height:80px;" src="img/featured/produit5.png" alt="">
                         <h4><a href="{{url('details/terbium')}}">Terbium</a></h4>
                     </div>                  
                 </div>
-                <div class="col-lg-3 col-sm-6">
+                <div class="col-lg-3 col-6">
                     <div class="single-intro-wrap">
                         <img class="" style="width: 80px; height:80px;" src="img/featured/produit1.png" alt="">
                         <h4><a href="{{url('details/neodyme')}}">Neodyme</a></h4>
                     </div>                  
                 </div>
 
-                <div class="col-lg-3 col-sm-6">
+                <div class="col-lg-3 col-6">
                     <div class="single-intro-wrap">
                         <img class="" style="width: 80px; height:80px;" src="img/featured/produit6.png" alt="">
                         <h4><a href="{{url('details/hafnium')}}">Hafnium</a></h4>
                     </div>                  
                 </div>
 
-                <div class="col-lg-3 col-sm-6">
+                <div class="col-lg-3 col-6">
                     <div class="single-intro-wrap">
                         <img class="" style="width: 80px; height:80px;" src="img/featured/produit7.png" alt="">
                         <h4><a href="{{url('details/praseodymium')}}">Praseodymium</a></h4>
@@ -510,9 +514,9 @@
     <section class="network-area pd-top-140">
         <div class="container-fluid">
             <div class="row justify-content-center">
-                <div class="col-xl-5 col-lg-6 d-none d-lg-block align-self-end">
+                <div class="col-xl-5 col-lg-6 d-none d-lg-block align-self-top">
                     <div class="thumb me-5 span3 wow rollIn">
-                        <img src="img/technique_image_gobi.png" alt="img">
+                        <img src="https://etimg.etb2bimg.com/photo/89406536.cms" alt="img">
                     </div>
                 </div> 
                 <div class="col-xl-5 col-lg-5 col-sm-9">
@@ -739,7 +743,7 @@
     <!-- subscribe-Area end-->
 
     <!-- footer area start -->
-    <footer class="footer-area text-center" style="background: url(img/shape/new_footer-bg.png);">
+    <footer class="footer-area text-center" style="background-color: #002c3e;">
         <div class="container">
             <div class="footer-thumb">
                 <a href="/">  <img style="height: 80px !important ;width: 90px !important" src="img/logo-blanc2.png" alt="img"></a>
@@ -748,7 +752,7 @@
                 <ul>
                     <li><a href="{{url('/')}}">ACCEUIL</a></li>
                     <li><a href="{{url('about')}}">À PROPOS </a></li>
-                    <li><a href="{{url('/product')}}"">PERLES RARES</a></li>
+                    <li><a href="{{url('/product')}}"">TERRES RARES</a></li>
                     <li><a href="{{url('/contact')}}">CONTACT</a></li>
                     <li><a href="{{url('/mention')}}">MENTIONS LÉGALES</a></li>
                 </ul>
@@ -800,42 +804,7 @@
     </div>
     <!-- back to top area end -->
 
-    <script>
-    var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?10582';
-    var s = document.createElement('script');
-    s.type = 'text/javascript';
-    s.async = true;
-    s.src = url;
-    var options = {
-  "enabled":true,
-  "chatButtonSetting":{
-      "backgroundColor":"#0b2a40", 
-      "ctaText":"Nous écrire...",
-      "borderRadius":"50",
-      "marginLeft":"0",
-      "marginBottom":"25",
-      "marginRight":"25",
-      "position":"right"
-  },
-  "brandSetting":{
-      "brandName":"Elio Strategy",
-      "brandSubTitle":"Jean Baptiste",
-      "brandImg":"img/fevicon.png",
-      "welcomeText":"Bonjour !\nComment puis-je vous aider ? \n. ",
-      "messageText":" Salut ! Comment ça marche ?",
-      "backgroundColor":"#0b2a40",
-      "ctaText":"Nous écrire...",
-      "borderRadius":"25",
-      "autoShow":false,
-      "phoneNumber":"33(0)533893440"
-  }
-};
-    s.onload = function() {
-        CreateWhatsappChatWidget(options);
-    };
-    var x = document.getElementsByTagName('script')[0];
-    x.parentNode.insertBefore(s, x);
-</script> 
+    
     <!-- all plugins here -->
     <script src="js/jquery-3.5.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>

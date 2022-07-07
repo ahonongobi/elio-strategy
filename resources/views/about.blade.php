@@ -24,52 +24,52 @@
     <section class="intro-area pd-top-110 text-center">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-sm-6">
+                <div class="col-lg-3 col-6">
                     <div class="single-intro-wrap">
                         <img class="" style="width: 80px; height:80px;" src="img/featured/produit8.png" alt="">
                         <h4><a href="{{url('details/germanium')}}">Germanium </a></h4>
                     </div>                  
                 </div>
-                <div class="col-lg-3 col-sm-6">
+                <div class="col-lg-3 col-6">
                     <div class="single-intro-wrap">
                         <img class="" style="width: 80px; height:80px;" src="img/featured/produit2.png" alt="">
                         <h4><a href="{{url('details/indium')}}">Indium </a></h4>
                     </div>                  
                 </div>
-                <div class="col-lg-3 col-sm-6">
+                <div class="col-lg-3 col-6">
                     <div class="single-intro-wrap">
                         <img class="" style="width: 80px; height:80px;" src="img/featured/produit3.png" alt="">
                         <h4><a href="{{url('details/dysprosium')}}">Dysprosium</a></h4>
                     </div>                  
                 </div>
-                <div class="col-lg-3 col-sm-6">
+                <div class="col-lg-3 col-6">
                     <div class="single-intro-wrap">
                         <img class="" style="width: 80px; height:80px;" src="img/featured/produit4.png" alt="">
                         <h4><a href="{{url('details/gallium')}}">Gallium</a></h4>
                     </div>                  
                 </div>
 
-                <div class="col-lg-3 col-sm-6">
+                <div class="col-lg-3 col-6">
                     <div class="single-intro-wrap">
                         <img class="" style="width: 80px; height:80px;" src="img/featured/produit5.png" alt="">
                         <h4><a href="{{url('details/terbium')}}">Terbium</a></h4>
                     </div>                  
                 </div>
-                <div class="col-lg-3 col-sm-6">
+                <div class="col-lg-3 col-6">
                     <div class="single-intro-wrap">
                         <img class="" style="width: 80px; height:80px;" src="img/featured/produit1.png" alt="">
                         <h4><a href="{{url('details/neodyme')}}">Neodyme</a></h4>
                     </div>                  
                 </div>
 
-                <div class="col-lg-3 col-sm-6">
+                <div class="col-lg-3 col-6">
                     <div class="single-intro-wrap">
                         <img class="" style="width: 80px; height:80px;" src="img/featured/produit6.png" alt="">
                         <h4><a href="{{url('details/hafnium')}}">Hafnium</a></h4>
                     </div>                  
                 </div>
 
-                <div class="col-lg-3 col-sm-6">
+                <div class="col-lg-3 col-6">
                     <div class="single-intro-wrap">
                         <img class="" style="width: 80px; height:80px;" src="img/featured/produit7.png" alt="">
                         <h4><a href="{{url('details/praseodymium')}}">Praseodymium</a></h4>
