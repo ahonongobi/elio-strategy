@@ -810,7 +810,7 @@
   "enabled":true,
   "chatButtonSetting":{
       "backgroundColor":"#0b2a40", 
-      "ctaText":"Nous écrire..",
+      "ctaText":"Nous écrire...",
       "borderRadius":"50",
       "marginLeft":"0",
       "marginBottom":"25",
@@ -824,7 +824,7 @@
       "welcomeText":"Bonjour !\nComment puis-je vous aider ? \n. ",
       "messageText":" Salut ! Comment ça marche ?",
       "backgroundColor":"#0b2a40",
-      "ctaText":"Nous écrire..",
+      "ctaText":"Nous écrire...",
       "borderRadius":"25",
       "autoShow":false,
       "phoneNumber":"33(0)533893440"
