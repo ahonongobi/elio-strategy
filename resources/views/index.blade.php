@@ -31,6 +31,24 @@
         .displ-none{
             display: none;
         }
+        .float{
+	position:fixed;
+	
+	bottom:40px;
+	right:40px;
+	color:#FFF;
+    border-radius: 30px
+	/**border-radius:50px;
+    width:60px;
+	height:60px;
+    **/
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
+
+.my-float{
+	margin-top:22px;
+}
     </style>
 </head>
 <body class="home-3">
@@ -797,6 +815,12 @@
           </div>
         </div>
       </div>
+      
+      <a class="float btn btn-blue mt-3" href="/contact">
+        <i class="fa fa-book"></i>
+        Demande de brochure gratuite
+    </a>
+
      <!--end cookies consent -->
     <!-- back to top area start -->
     <div class="back-to-top">

@@ -827,7 +827,7 @@ a:hover {
 ------------------------------------------------*/
 .back-to-top {
   position: fixed;
-  right: 30px;
+  left: 30px;
   bottom: 30px;
   width: 41px;
   height: 41px;
