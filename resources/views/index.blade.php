@@ -819,7 +819,7 @@
       <a class="float btn btn-blue mt-3" href="/contact">
         <i class="fa fa-book"></i>
         Demande de brochure gratuite
-    </a>
+     </a>
 
      <!--end cookies consent -->
     <!-- back to top area start -->
