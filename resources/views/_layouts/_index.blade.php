@@ -72,10 +72,10 @@
                             <a href="{{url('product')}}">TERRES RARES
                                 </a> 
                         </li>
-                        <li>
+                        {{-- <li>
                             <a target="_blank"  href="{{url('blog.eliostrategy.com')}}">ACTUALITÉS
                                 </a> 
-                        </li>
+                        </li> --}}
                         
                         
                         <li>
