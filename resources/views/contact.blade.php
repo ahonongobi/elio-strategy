@@ -180,6 +180,15 @@
 				</div>
 				<div class="col-lg-12">
 					<div class="blog-comment-form">
+						<span>
+							<!-- sucess message -->
+							@if(session()->has('success'))
+								<div class="alert alert-success">
+									{{ session()->get('success') }}
+								</div>
+							@endif
+						</span>
+						
 						<div class="title">
 							Recevez votre consultation ainsi que notre brochure gratuitement
 						</div>
@@ -193,24 +202,16 @@
 								</div>
 								<div class="col-md-4">
 									<div class="form-group">
-								    	<input type="email"  required email="email" class="form-control" placeholder="Email">
+								    	<input type="email"  required email="email" name="email" class="form-control" placeholder="Email">
 								    </div>
 								</div>
 								<div class="col-md-4">
 									<div class="form-group">
-								    	<input type="text" name="title"  class="form-control" placeholder="Titre">
-								    </div>
-								</div>
-							</div>
-                            <div class="row">
-								<div class="col-md-12">
-									<div class="form-group">
 								    	<input type="text" name="tel" class="form-control" placeholder="Téléphone">
 								    </div>
 								</div>
-								
-								
 							</div>
+                           
 							<button type="button" class="btn_choose_sent bg_btn_chose_3 mb-3">
 								<input type="radio" checked name="code" value="Recevoir la brochure" />  Recevoir la brochure
 							</button>
@@ -226,7 +227,7 @@
 								<input type="radio" name="code" value="Autres" /> Autres
 							</button>
 						  	<div class="form-group">
-							    <textarea class="form-control" name="message" required placeholder="Message" rows="8"></textarea>
+							    <textarea class="form-control" name="message" placeholder="Message" rows="8"></textarea>
 							</div>
 						  	
 						  	<button type="submit" class="common-btn">ENVOYER LE MESSAGE</button>

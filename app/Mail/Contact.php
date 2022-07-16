@@ -10,15 +10,24 @@ use Illuminate\Queue\SerializesModels;
 class Contact extends Mailable
 {
     use Queueable, SerializesModels;
+    public $name;
+    public $email;
+    public $message;
+    public $tel;
+    public $code;
 
     /**
      * Create a new message instance.
      *
      * @return void
      */
-    public function __construct()
+    public function __construct($email,$name,$tel,$message,$code)
     {
-        //
+        $this->email = $email;
+        $this->name = $name;
+        $this->tel = $tel;
+        $this->message = $message;
+        $this->code = $code;
     }
 
     /**
@@ -28,6 +37,6 @@ class Contact extends Mailable
      */
     public function build()
     {
-        return $this->markdown('emails.contact');
+        return $this->markdown('emails.contact')->subject('Contact de '.$this->name);
     }
 }

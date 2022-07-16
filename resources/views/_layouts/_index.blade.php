@@ -24,7 +24,26 @@
 
     <!--Google Fonts-->
     <link href="../../../fonts.googleapis.com/css2f59e.css?family=Playfair+Display:wght@400;500;600;700;800&amp;family=Poppins:wght@300;400;500;600;700;800&amp;family=Roboto:wght@300;400;500;700&amp;display=swap" rel="stylesheet">
+     <style>
+        .float{
+	position:fixed;
+	
+	bottom:40px;
+	right:40px;
+	color:#FFF;
+    border-radius: 30px
+	/**border-radius:50px;
+    width:60px;
+	height:60px;
+    **/
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
 
+.my-float{
+	margin-top:22px;
+}
+     </style>
 </head>
 <body>
 
@@ -131,7 +150,10 @@
         </div>
     </footer>
     <!-- footer area end -->        
-
+    <a class="float btn btn-blue mt-3" href="/contact">
+        <i class="fa fa-book"></i>
+        Demande de brochure gratuite
+     </a>
     <!-- back to top area start -->
     <div class="back-to-top">
         <span class="back-top"><i class="fa fa-angle-up"></i></span>

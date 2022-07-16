@@ -13,6 +13,7 @@ class Brochure extends Mailable
     public $name;
     public $email;
     public $message;
+    
     /**
      * Create a new message instance.
      *
@@ -23,6 +24,7 @@ class Brochure extends Mailable
         $this->name = $name;
         $this->email = $email;
         $this->message = $message;
+       
     }
 
     /**
