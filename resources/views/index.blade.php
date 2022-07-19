@@ -389,7 +389,7 @@
                     <div class="col-lg-4 col-sm-6">
                         <div class="single-fact-inner">
                             <h2><span class="counter">200,000</span></h2>
-                            <h4>Produites par an</h4>
+                            <h4>Tonnes Produites par an</h4>
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6">
